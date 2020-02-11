@@ -1,0 +1,26 @@
+body {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  background: linear-gradient(
+    to right,
+    rgb(54, 237, 54) 0%,
+    rgb(197, 32, 238) 100%
+  );
+}
+
+.roboframe {
+  border-radius: 10px;
+  background-color: #eee;
+  width: 200px;
+  height: 250px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
